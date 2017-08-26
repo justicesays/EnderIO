@@ -69,16 +69,5 @@ public class BlockExperienceObelisk extends AbstractBlockObelisk<TileExperienceO
     // Has no particles
   }
   
-  @Override
-  @SideOnly(Side.CLIENT)
-  public IItemRenderMapper getItemRenderMapper() {
-    return RenderMappers.FRONT_MAPPER;
-  }
-
-  @Override
-  @SideOnly(Side.CLIENT)
-  public IRenderMapper.IBlockRenderMapper getBlockRenderMapper() {
-    return RenderMappers.FRONT_MAPPER;
-  }
 
 }
