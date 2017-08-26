@@ -16,7 +16,7 @@ public class GogglesOfRevealingUpgrade extends AbstractUpgrade {
   public static final GogglesOfRevealingUpgrade INSTANCE = new GogglesOfRevealingUpgrade();
 
   public static ItemStack getGoggles() {
-    Item i = GameRegistry.findItem("Thaumcraft", "ItemGoggles");
+    Item i = GameRegistry.findItem("Thaumcraft", "goggles");
     if(i != null) {
       return new ItemStack(i);
     }
